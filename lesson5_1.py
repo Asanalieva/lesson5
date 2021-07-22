@@ -27,7 +27,7 @@ user['name2'] = 'Maruf' #create new key or
 print(user)
 print(user.pop('name2'))
 print(user)
-print(user.get('name'))
+print(user.get('name'))#the same as print(user['name'])
 user3 = user.copy()
 print(user)
 user3 = user.popitem() #как кортедж

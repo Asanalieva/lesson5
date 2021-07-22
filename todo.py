@@ -22,7 +22,7 @@ try:
                 print()
 
 except ValueError:
-    print('Write integer!')
+    print('Write an integer!')
 except:
     print('Error')
 finally:
